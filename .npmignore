@@ -1,0 +1,10 @@
+node_modules
+yarn.lock
+.env
+coverage
+performance
+test
+*.test.js
+.gitignore
+.github
+trial.js
