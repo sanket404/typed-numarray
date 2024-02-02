@@ -5,31 +5,31 @@ Fast and efficient numeric array operations in JavaScript.
 ## Install
 
 ```bash
-npm install typed-numarray
+npm install typed-numarray-javascript
 # or
-yarn add typed-numarray
+yarn add typed-numarray-javascript
 # or
-pnpm install typed-numarray
+pnpm install typed-numarray-javascript
 # or
-bun install typed-numarray
+bun install typed-numarray-javascript
 ```
 
 ### require
 
 ```js
-const NumArray = require("typed-numarray");
+const NumArray = require("typed-numarray-javascript");
 ```
 
 ### import
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 ```
 
 ## Example
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Create 32 byte integer array of length 10
 const arr = NumArray("int32", 10);
@@ -93,7 +93,7 @@ const uint64 = NumArray("uint64", 10); // BigUint64Array
 ### Access Array
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Initilise Array
 const arr = NumArray("int32", 3);
@@ -114,7 +114,7 @@ arr.slice(1, 3); // Uint32Array [0, 0]
 ### Access Elements
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Initilise Array
 const arr = NumArray("int32", 10);
@@ -129,7 +129,7 @@ arr.at(5); // 42
 ### Basic Methods
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Initilise Array
 const arr = NumArray("int32", 10);
@@ -150,7 +150,7 @@ arr.shift(); // 8
 ### Sort
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Initilise Array
 const arr = NumArray("int32", 10);
@@ -167,7 +167,7 @@ arr.sort(() => (Math.random() > 0.5 ? 1 : -1));
 ### Reduce memory of current array
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Initilise Array
 const arr = NumArray("int32", 10);
@@ -179,7 +179,7 @@ arr.reduceMemory();
 ### Other Methods (Standard Methods)
 
 ```js
-import NumArray from "typed-numarray";
+import NumArray from "typed-numarray-javascript";
 
 // Initilise Array
 const arr = NumArray("int32", 10);
