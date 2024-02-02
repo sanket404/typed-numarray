@@ -1,6 +1,6 @@
 {
-  "name": "typed-numarray",
-  "version": "1.0.8",
+  "name": "typed-numarray-javascript",
+  "version": "1.0.0",
   "description": "Dynamic Typed Array",
   "main": "main.js",
   "scripts": {
